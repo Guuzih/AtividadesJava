@@ -7,7 +7,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 
 		double impostosala = 0.0;
-		
+
 		// Bruto
 		System.out.println("Escrava a sua renda anual");
 		 double salario = sc.nextDouble();
@@ -61,6 +61,8 @@ public class Main {
 		//Resumo
 		System.out.println("\n Resumo: \n Imposto bruto total - " + impostobruto + 
 				"\n Abatimento - " + abatimento + "\n Imposto devido - " + impostodev);
+		
+		sc.close();
 	}
 
 }
